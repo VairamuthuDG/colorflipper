@@ -1,0 +1,131 @@
+/* nav{
+ Background-color: 	rgb(255, 230, 230);
+ display:flex;
+ height:3rem;
+
+}
+
+.nav-center{
+
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content:space-around;
+    margin:0 auto;
+}
+
+main{
+    min-height: 90vh;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.nav-links{
+    display:flex;
+    margin-right:1rem;
+}
+.nav-links li{
+    padding-right:2rem;
+}
+
+ul{
+    list-style-type:none;
+}
+
+.nav-center h4{
+    color: rgb(255,0,200);
+   margin: 1px 0px 0px 1px;
+}
+
+.container{
+    text-align:center;
+}
+
+main{
+    display:grid;
+}
+
+.container h2{
+    background-color: darksalmon;
+    color:darkslategrey;
+    border-radius:.50rem;
+    padding:2rem;
+    border: 2px 3px 2px 3px;
+    margin:15rem 15rem 60px 15rem;
+    
+}
+
+body{
+    background-color: lavender;
+}
+
+.container button{
+    margin: top 0.2rem;
+}
+
+.btn-hero{
+    background:transparent;
+    color:rgb(31, 4, 31);
+    border:solid 3px;
+} */
+
+/* nav{
+    display: flex;
+    height:3rem;
+    max-width: 1000px;
+    background-color: darksalmon;
+    align-items: center;
+    justify-content: space-between;
+} */
+
+.nav-center{
+    display: flex;
+    max-width:90wh;
+    height:3rem;
+    align-items: center;
+    background-color: darksalmon;
+    justify-content: space-around;
+}
+
+.nav-links{
+    display:flex;
+    justify-content: space-around;
+}
+
+ul li{
+    list-style-type: none;
+    padding-right:1rem;
+    color:maroon;
+    
+}
+li a{
+    color: saddlebrown;
+    text-decoration: none;
+}
+
+.container{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ height: 90vh;
+}
+
+.container-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90wh;
+    height:200px;
+    color: papayawhip;
+    background-color:royalblue;
+    border-radius: 10px;
+    box-shadow: powderblue;
+}
+
+.btn-hero{
+    
+    background-color:fuchsia;
+}
